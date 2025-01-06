@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohanapriya Portfolio</title>
+    <link rel="stylesheet" href="../portfolio/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/34d89722d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="./js/script.js">
+    </script>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="hidden" id="changing-text">Frontend Developer</p>
+                <h1>Hi, I'm <span>Mohanapriya R</span></h1>
+            </div><br>
+            <div class="direct">
+                <a href="#header" target="_blank"><i class="fa-solid fa-angles-up"></i></a>
+            </div>
+        </div>
+    </div>
+<!-- about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="./images/memories1.jpeg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1><br>
+                    <p>Hi! Myself Mohanapriya R, a passionate designer and coder from India. I completed my 10th and 12th in Prince Shri Venkateshwara Higher Secondary School and I have also completed undergraduate degree in Jeppiaar Engineering College. I am a frontend developer with a strong passion for UI/UX design and coding.
+
+                        Coding is my passion and my tecniques of problem-solving in realtime-world. I have some skills and proficiency in languages like HTML, CSS, Java, JavaScript, Python, React, and SQL, Building User-friendly and dynamic applications.
+                        
+                        Eager to learn, explore new technologies, and take on new challenges that help me to grow and develop. Let’s connect,create and build something attractive and amazing things!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Designing</span><br>Experienced in designing user-friendly interfaces with a focus on functionality and aesthetic appeal and to create responsive designs.</li>
+                            <li><span>Web Developer</span><br>Skilled in creating responsive and dynamic websites using HTML, CSS, JavaScript, and React frameworks.</li>
+                            <li><span>App Developer</span><br>Knowledge in building efficient and functional applications using Java, Python,Reactjs and problem-solving techniques.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internship">
+                        <ul>
+                            <li><span>UI/UX Designing</span><br>Created attractive and visually appealing user interfaces, focusing on user-experience designing principles and optimizing overall user experience.</li>
+                            <li><span>Data Analytics</span><br>Multidisciplinary approach that combines principles and practices from the fields of analysis, statistics, database managements,data Visualization and to analyze large amounts of datas and to make data-driven decisions.</li>
+                            <li><span>Web Development</span><br>Developed responsive and dynamic websites using.</li>
+                            <!--<li><span>UI/UX</span><br>Desigining Web.App interfaces</li>
+                            <li><span>UI/UX</span><br>Desigining Web.App interfaces</li>-->
+                       </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>10th from Prince Shri Venkateshwara Higher Secondary School</li>
+                            <li><span>2020</span><br>12th from Prince Shri Venkateshwara Higher Secondary School</li>
+                            <li><span>2020-2024</span><br>Undergraduate from Jeppiaar Engineering College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="direct">
+            <a href="#header" target="_blank"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </div> 
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Developer</h2>
+                    <p>I have specialized in creating responsive, dynamic websites that are customized to meet the unique needs of each project.</p>
+                    <a href="" class="learn-more">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Focus on aesthetics and usability, I design reliable and attractive user interfaces and obeying user experiences.</p>
+                    <a href="" class="learn-more">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Development</h2>
+                    <p>In the process of building a mobile or web application, I provide robust development solutions using trending technologies.</p>
+                    <a href="" class="learn-more">Learn more</a>
+                </div>
+            </div>
+            <a href="#" class="btn">See All</a>
+        </div>
+        <div class="direct">
+            <a href="#header" target="_blank"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <a href=""><img src="./images/Calcualtor image.png" alt=""></a>
+                    <div class="layer">
+                        <h3>Live calculator</h3>
+                        <p>I created a calculator app using react js</p>
+                        <a href="https://github.com/Mohpriya/Calculator.git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/MultipleProfile cards.png" alt="">
+                    <div class="layer">
+                        <h3>UI/UX Designer</h3>
+                        <p>I created one intuitive and visually attractive designs that enhance user experiences.</p>
+                        <a href="https://github.com/Mohpriya/Profilecard"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Profilecard.png" alt="">
+                    <div class="layer">
+                        <h3>App Developer</h3>
+                        <p>I specialized in building robust, user-friendly applications that meet the unique needs of clients.</p>
+                        <a href="https://github.com/Mohpriya/frontmentor-Mohanapriya.git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+        <div class="direct">
+            <a href="#header" target="_blank"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p class="p1"><i class="fa-solid fa-envelope-circle-check"></i>mohpriya5069@gmail.com</p>
+                    <p class="p2"><i class="fa-solid fa-phone"></i>9344898993</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/priya-r-b116452b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <div class="social-icons1">
+                            <a href="https://github.com/Mohpriya" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                    </div>
+                    <a href="./Priya Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/portfolio@gmail.com" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required id="">
+                        <input type="text" name="Email" placeholder="Your Email" required id="">
+                        <input type="text" name="Message" placeholder="Your Message" rows="6" required id="">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+             </div>
+             <div class="direct">
+                <a href="#header" target="_blank"><i class="fa-solid fa-angles-up"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Mohanapriya R. All rights reserved.</p>
+        </div> 
+    </div>
+</body>
+</html>
